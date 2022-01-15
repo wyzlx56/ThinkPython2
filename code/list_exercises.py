@@ -59,8 +59,10 @@ def chop(t):
 
     returns: None
     """
-    del t[0]
-    del t[-1]
+    #del t[0]
+    #del t[-1]
+    t.pop()
+    t.pop(0)
 
 
 def is_sorted(t):
